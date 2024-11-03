@@ -8,7 +8,7 @@ const TOMATO = new Crop(
   CropType.Tomato,
   Bonus.WaterRetain,
   CropSize.Single,
-  '/crops/tomato.webp',
+  'https://ik.imagekit.io/paliagardenplanner/tomato-crop.webp?updatedAt=1730620262023',
   // Base Values
   {
     base: 2,
@@ -38,8 +38,8 @@ const TOMATO = new Crop(
     preserveProcessMinutes: 27,
   },
   {
-    preserve: '/jars/tomato.png',
-    seed: '/seeds/tomato.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/tomato-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/tomato-seed.webp',
   },
   {
     cropCode: CropCode.Tomato,
@@ -52,7 +52,7 @@ const POTATO = new Crop(
   CropType.Potato,
   Bonus.WaterRetain,
   CropSize.Single,
-  '/crops/potato.webp',
+  'https://ik.imagekit.io/paliagardenplanner/potato-crop.webp',
   {
     base: 2,
     growthTime: 5,
@@ -74,8 +74,8 @@ const POTATO = new Crop(
     preserveProcessMinutes: 54,
   },
   {
-    preserve: '/jars/potato.png',
-    seed: '/seeds/potato.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/potato-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/potato-seed.webp',
   },
   {
     cropCode: CropCode.Potato,
@@ -88,7 +88,7 @@ const RICE = new Crop(
   CropType.Rice,
   Bonus.HarvestIncrease,
   CropSize.Single,
-  '/crops/rice.webp',
+  'https://ik.imagekit.io/paliagardenplanner/rice-crop.webp',
   {
     base: 2,
     growthTime: 3,
@@ -112,7 +112,7 @@ const RICE = new Crop(
   },
   {
     preserve: '',
-    seed: '/seeds/rice.png',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/rice-seed.webp',
   },
   {
     cropCode: CropCode.Rice,
@@ -125,7 +125,7 @@ const WHEAT = new Crop(
   CropType.Wheat,
   Bonus.HarvestIncrease,
   CropSize.Single,
-  '/crops/wheat.webp',
+  'https://ik.imagekit.io/paliagardenplanner/wheat-crop.webp',
   {
     base: 2,
     growthTime: 4,
@@ -148,7 +148,7 @@ const WHEAT = new Crop(
   },
   {
     preserve: '',
-    seed: '/seeds/wheat.png',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/wheat-seed.webp',
   },
   {
     cropCode: CropCode.Wheat,
@@ -161,7 +161,7 @@ const CARROT = new Crop(
   CropType.Carrot,
   Bonus.WeedPrevention,
   CropSize.Single,
-  '/crops/carrot.webp',
+  'https://ik.imagekit.io/paliagardenplanner/carrot-crop.webp',
   {
     base: 2,
     growthTime: 3,
@@ -183,8 +183,8 @@ const CARROT = new Crop(
     preserveProcessMinutes: 27,
   },
   {
-    preserve: '/jars/carrot.png',
-    seed: '/seeds/carrot.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/carrot-jar.webp',
+    seed: 'https://utfs.io/f/TbxOHzrZP3HNpUpltISl42fmdZzeyqnXRNMIF1wtcBkWLKP7',
   },
   {
     cropCode: CropCode.Carrot,
@@ -197,7 +197,7 @@ const ONION = new Crop(
   CropType.Onion,
   Bonus.WeedPrevention,
   CropSize.Single,
-  '/crops/onion.webp',
+  'https://ik.imagekit.io/paliagardenplanner/onion-crop.webp',
   {
     base: 2,
     growthTime: 4,
@@ -219,8 +219,8 @@ const ONION = new Crop(
     preserveProcessMinutes: 36,
   },
   {
-    preserve: '/jars/onion.png',
-    seed: '/seeds/onion.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/onion-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/onion-seed.webp',
   },
   {
     cropCode: CropCode.Onion,
@@ -233,7 +233,7 @@ const COTTON = new Crop(
   CropType.Cotton,
   Bonus.QualityIncrease,
   CropSize.Single,
-  '/crops/cotton.webp',
+  'https://ik.imagekit.io/paliagardenplanner/cotton-crop.webp',
   {
     base: 2,
     growthTime: 5,
@@ -256,7 +256,7 @@ const COTTON = new Crop(
   },
   {
     preserve: '',
-    seed: '/seeds/cotton.png',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/cotton-seed.webp',
   },
   {
     cropCode: CropCode.Cotton,
@@ -269,7 +269,7 @@ const BLUEBERRY = new Crop(
   CropType.Blueberry,
   Bonus.HarvestIncrease,
   CropSize.Bush,
-  '/crops/blueberry.webp',
+  'https://ik.imagekit.io/paliagardenplanner/blueberry-crop.webp',
   {
     base: 6,
     growthTime: 9,
@@ -294,8 +294,8 @@ const BLUEBERRY = new Crop(
     preserveProcessMinutes: 47.25,
   },
   {
-    preserve: '/jars/blueberry.png',
-    seed: '/seeds/blueberry.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/blueberry-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/blueberry-seed.webp',
   },
   {
     cropCode: CropCode.Blueberry,
@@ -308,7 +308,7 @@ const APPLE = new Crop(
   CropType.Apple,
   Bonus.HarvestIncrease,
   CropSize.Tree,
-  '/crops/apple.webp',
+  'https://ik.imagekit.io/paliagardenplanner/apple-crop.webp',
   {
     base: 16,
     growthTime: 12,
@@ -333,8 +333,8 @@ const APPLE = new Crop(
     preserveProcessMinutes: 76,
   },
   {
-    preserve: '/jars/apple.png',
-    seed: '/seeds/apple.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/apple-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/apple-seed.webp',
   },
   {
     cropCode: CropCode.Apple,
@@ -347,7 +347,7 @@ const CORN = new Crop(
   CropType.Corn,
   Bonus.HarvestIncrease,
   CropSize.Single,
-  '/crops/corn.webp',
+  'https://ik.imagekit.io/paliagardenplanner/corn-crop.webp',
   {
     base: 2,
     growthTime: 5,
@@ -369,8 +369,8 @@ const CORN = new Crop(
     preserveProcessMinutes: 48,
   },
   {
-    preserve: '/jars/corn.webp',
-    seed: '/seeds/corn.webp',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/corn-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/corn-seed.webp',
   },
   {
     cropCode: CropCode.Corn,
@@ -383,7 +383,7 @@ const SPICY_PEPPER = new Crop(
   CropType.SpicyPepper,
   Bonus.QualityIncrease,
   CropSize.Bush,
-  '/crops/spicy-pepper.webp',
+  'https://ik.imagekit.io/paliagardenplanner/spicy-pepper-crop.webp',
   {
     base: 6,
     growthTime: 6,
@@ -408,8 +408,8 @@ const SPICY_PEPPER = new Crop(
     preserveProcessMinutes: 38.5,
   },
   {
-    preserve: '/jars/spicy-pepper.webp',
-    seed: '/seeds/spicy-pepper.webp',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/spicy-pepper-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/spicy-pepper-seed.webp',
   },
   {
     cropCode: CropCode.SpicyPepper,
@@ -422,7 +422,7 @@ const NAPA_CABBAGE = new Crop(
   CropType.NapaCabbage,
   Bonus.WaterRetain,
   CropSize.Single,
-  '/crops/napa-cabbage.webp',
+  'https://ik.imagekit.io/paliagardenplanner/napa-cabbage-crop.webp',
   {
     base: 2,
     growthTime: 6,
@@ -444,8 +444,8 @@ const NAPA_CABBAGE = new Crop(
     preserveProcessMinutes: 48,
   },
   {
-    preserve: '/jars/napa-cabbage.webp',
-    seed: '/seeds/napa-cabbage.webp',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/napa-cabbage-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/napa-cabbage-seed.webp',
   },
   {
     cropCode: CropCode.NapaCabbage,
@@ -458,7 +458,7 @@ const BOK_CHOY = new Crop(
   CropType.BokChoy,
   Bonus.WeedPrevention,
   CropSize.Single,
-  '/crops/bok-choy.webp',
+  'https://ik.imagekit.io/paliagardenplanner/bok-choy-crop.webp',
   {
     base: 2,
     growthTime: 3,
@@ -480,8 +480,8 @@ const BOK_CHOY = new Crop(
     preserveProcessMinutes: 36,
   },
   {
-    preserve: '/jars/bok-choy.webp',
-    seed: '/seeds/bok-choy.png',
+    preserve: 'https://ik.imagekit.io/paliagardenplanner/bok-choy-jar.webp',
+    seed: 'https://ik.imagekit.io/paliagardenplanner/bok-choy-seed.webp',
   },
   {
     cropCode: CropCode.BokChoy,
