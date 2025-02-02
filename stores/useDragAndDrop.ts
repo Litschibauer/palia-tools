@@ -55,7 +55,7 @@ export const useDragAndDrop = defineStore('dragAndDrop', () => {
       })
     }
 
-    garden.value?.calculateBonuses()
+    garden.value?.calculateBonuses();;;
 
     draggedItem.value = null
     isDragging.value = false
